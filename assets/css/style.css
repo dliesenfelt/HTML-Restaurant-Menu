@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -55,12 +56,14 @@ nav a:hover {
 #banner {
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    max-height: 400px;
 }
 
 #banner img {
     width: 60%;
     height: auto;
+    
 }
 
 .service {
@@ -72,6 +75,11 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
+}
+
+#flag {
+    color: darkred;
 }
 
 table {
